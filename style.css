@@ -1,0 +1,197 @@
+.mainContainer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.head {
+  display: flex;
+  align-items: center;
+  width: 340.734px;
+  height: 18px;
+  padding: 0.9rem;
+  justify-content: center;
+}
+.heading {
+  color: #007f61;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.line {
+  width: 93.996px;
+  height: 0.904px;
+  background-color: #c8c8c8;
+}
+
+.circleIcon {
+  margin-left: 1rem;
+}
+.circle {
+  stroke-width: 0.904px;
+  stroke: #007f61;
+  /* fill: var(--circle-fill-color, #007F61); */
+}
+.offerPercantage {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 8rem;
+}
+.offer {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.product {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1rem;
+}
+
+.price {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1rem;
+  margin-top: -12px;
+}
+
+.circleIcon {
+  margin-right: 10px;
+}
+
+.labelDropdown {
+  display: block;
+
+  font-family: "Inter", sans-serif;
+
+  color: #000;
+
+  font-size: 0.62138rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#size,
+#color {
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  width: 67.978px;
+  height: 27.306px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/* Common styles for details */
+.details p {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 9.038px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 2rem;
+  margin-right: 7px;
+}
+
+/* Hide details wrappers by default */
+.details-wrapper {
+  display: none;
+}
+
+/* Common styles for accordions */
+.accordion {
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  margin-top: 1rem;
+  width: 340.734px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+}
+.details1:nth-child(2) {
+  margin-top: 1rem;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+}
+.free-shipping{
+  color: #007f61;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.total-price{
+  margin-left: 4rem;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add-button{
+  width: 21.3125rem;
+  height: 3rem;
+  border-color: #007f61;
+  border-radius: 0.25rem 0.25rem 0.25rem 0rem;
+  background: #007f61;
+}
+.button-text{
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+}
